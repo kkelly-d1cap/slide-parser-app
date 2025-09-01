@@ -26,12 +26,12 @@ This package contains everything you need to deploy the Slide Parser application
 ## 📦 **What's in This Package**
 
 ### **Ready-to-Deploy Files:**
-- ✅ **backend-for-heroku.zip** - Complete backend application
+- ✅ **backend-for-railway.zip** - Complete backend application
 - ✅ **frontend-for-netlify.zip** - Complete frontend website
 - ✅ **Configuration templates** - Copy/paste settings
 
 ### **Step-by-Step Guides:**
-- ✅ **STEP-1-HEROKU-BACKEND.md** - Deploy the processing engine (45 min)
+- ✅ **STEP-1-RAILWAY-BACKEND.md** - Deploy the processing engine (45 min)
 - ✅ **STEP-2-NETLIFY-FRONTEND.md** - Deploy the website (30 min)
 - ✅ **STEP-3-AWS-S3-STORAGE.md** - Set up file storage (45 min)
 - ✅ **STEP-4-FINAL-TESTING.md** - Test and train team (30 min)
@@ -47,18 +47,18 @@ This package contains everything you need to deploy the Slide Parser application
 
 ### **What You're Building:**
 ```
-Your Team → Website (Netlify) → Processing Engine (Heroku) → File Storage (AWS S3)
+Your Team → Website (Netlify) → Processing Engine (RAILWAY) → File Storage (AWS S3)
            ↓
         Upload PDF → Select Slides → Generate HTML → Copy to Website
 ```
 
 ### **Services You'll Use:**
-1. **Heroku** - Hosts the PDF processing engine
+1. **Railway** - Hosts the PDF processing engine
 2. **Netlify** - Hosts the website your team uses
 3. **AWS S3** - Stores slide images in the cloud
 
 **Think of it like:**
-- **Heroku** = The kitchen (processes your orders)
+- **Railway** = The kitchen (processes your orders)
 - **Netlify** = The restaurant (where customers place orders)
 - **AWS S3** = The pantry (stores ingredients/images)
 
@@ -74,7 +74,7 @@ Your Team → Website (Netlify) → Processing Engine (Heroku) → File Storage 
 
 ### **Follow These Steps in Order:**
 1. **📖 Read this file completely** (5 minutes)
-2. **🔧 STEP-1-HEROKU-BACKEND.md** (45 minutes)
+2. **🔧 STEP-1-RAILWAY-BACKEND.md** (45 minutes)
 3. **🌐 STEP-2-NETLIFY-FRONTEND.md** (30 minutes)
 4. **☁️ STEP-3-AWS-S3-STORAGE.md** (45 minutes)
 5. **✅ STEP-4-FINAL-TESTING.md** (30 minutes)
@@ -90,7 +90,7 @@ Your Team → Website (Netlify) → Processing Engine (Heroku) → File Storage 
 
 ### **Monthly Costs:**
 ```
-Heroku (backend):     $25/month
+Railway (backend):     $25/month
 Netlify (frontend):   $0/month (free tier)
 AWS S3 (storage):     $20/month (1000 presentations)
 Total Monthly:        $45/month
@@ -147,7 +147,7 @@ ROI:                     8,935%
 #### **Level 1: Self-Help (Try First)**
 - **Check the troubleshooting section** in each step guide
 - **Google the specific error message** + service name
-- **Check service status pages** (Heroku, Netlify, AWS)
+- **Check service status pages** (Railway, Netlify, AWS)
 
 #### **Level 2: Community Support**
 - **Stack Overflow** - Search for your specific error
